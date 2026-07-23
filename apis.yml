@@ -1,23 +1,71 @@
 aid: atlas-discovery
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atlas-discovery.png
 name: Atlas Discovery
-description: Atlas Discovery is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Atlas Discovery is an AI-powered biotechnology company (Y Combinator Summer
+  2026) building foundation models of human patient biology to predict how people
+  will respond to drugs in clinical trials. Nine of ten drugs fail in trials
+  because no animal model or cell in a dish reliably predicts a human response;
+  Atlas Discovery trains models on preclinical and clinical data to improve trial
+  design and rescue stalled drug programs. Its research spans single-cell
+  representation learning (ExpressionVAE) and clinical response prediction, with
+  work presented at ICLR '26, ICML '26, and CSHL '26. The company is an
+  early-stage research lab with no public API, developer program, or product
+  surface yet; this profile is maintained in the API Evangelist network as a
+  portfolio lead awaiting a public developer offering.
 url: https://raw.githubusercontent.com/api-evangelist/atlas-discovery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- pear-ventures
+- glasswing-ventures
+x-yc-batch: Summer 2026
+x-location: San Francisco, CA
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Artificial Intelligence
+- Machine Learning
+- Clinical Trials
+- Foundation Models
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/atlas-discovery-domain-security.yml
+- type: Website
+  url: https://atlasdiscovery.bio
+- type: Blog
+  url: https://atlasdiscovery.bio/blog.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/atlas-discovery
+- type: Twitter
+  url: https://x.com/atlasdiscovery0
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
