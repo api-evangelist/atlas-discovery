@@ -54,7 +54,7 @@ tags:
 - Biotechnology
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Clinical Trials
 - Foundation Models
 - Life Sciences
@@ -67,6 +67,7 @@ tags_raw:
 - Clinical Trials
 - Foundation Models
 - Life Sciences
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
